@@ -2,3 +2,9 @@
 test.py
 test_2.py
 to_do.txt
+test.ipynb
+
+# test dataset
+dataset/tmp/
+BTC_prices.parquet
+BTC_trend.parquet

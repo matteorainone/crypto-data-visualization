@@ -94,7 +94,7 @@ def label_normalizer(trend_dataset_file:str):
 def create_or_update_table(database_name, table_name, s3_location, columns):
     glue_client = boto3.client('glue')
 
-    # Definisci lo Storage Descriptor per la tabella
+    # definizione dello Storage Descriptor per la tabella
     storage_descriptor = {
         'Columns': columns,  # ad es. [{'Name': 'col1', 'Type': 'string'}, ...]
         'Location': s3_location,
