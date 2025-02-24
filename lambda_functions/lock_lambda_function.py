@@ -33,7 +33,7 @@ def lambda_handler(event, context):
     
     # Recupera i parametri dall'evento oppure dalle variabili d'ambiente
     bucket = event.get('bucket', os.environ.get('S3_BUCKET'))
-    lock_key = event.get('lock_key', os.environ.get('LOCK_KEY')) + '.lock'
+    lock_key = os.environ.get('LOCK_KEY')
     
     ts_str = event.get('timestamp')
     if ts_str:
