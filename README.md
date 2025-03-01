@@ -3,6 +3,8 @@
 
 Lo scopo del progetto è quello di realizzare due pipeline di ETL per trattare dei dati relativi a due criptovalute, Bitcoin e Monero.
 
+Per comprendere quali fossero le trasformazioni da realizzare sui dati, è stata realizzata una preliminare indagine esplorativa, i cui esiti sono contenuti nel file ```eda_analysis.ipynb```
+
 ### Architettura
 
 La pipeline E2E è stata realizzata seguendo l'archiettura rappresentata nel seguente schema: ![architecture_diagram](Architecture.png)
