@@ -21,7 +21,7 @@ BTC_STEP_FUNCTION_ARN = os.environ.get('BTC_STEP_FUNCTION_ARN')
 BTC_LOCK_KEY = os.environ.get('BTC_LOCK_KEY')
 
 # Configurazione per MONERO
-MONERO_FILE1 = os.environ.get('MOENRO_FILE1')
+MONERO_FILE1 = os.environ.get('MONERO_FILE1')
 MONERO_FILE2 = os.environ.get('MONERO_FILE2')
 MONERO_STEP_FUNCTION_ARN = os.environ.get('MONERO_STEP_FUNCTION_ARN')
 MONERO_LOCK_KEY = os.environ.get('MONERO_LOCK_KEY')
